@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 .App-header {
-    background-image: url("./img/Header.jpeg");
+    background-image: url("https://jonahsaffranphotos.s3.us-west-1.amazonaws.com/img/Header.jpg");
     background-size: cover;
     width: 100vw;
     background-repeat: no-repeat;
