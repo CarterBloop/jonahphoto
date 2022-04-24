@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.App-header {
+    background-image: url("./img/Header.jpeg");
+    background-size: cover;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 0px -120px 50px -50px white inset;
+    -webkit-animation: 15s linear 0s infinite alternate shift;
+    animation: 15s linear 0s infinite alternate shift;
+}
+
+@-webkit-keyframes shift {
+    from {
+        background-size: 100vw;
+    }
+
+    to {
+        background-size: 120vw;
+    }
+}
+
+@keyframes shift {
+    from {
+        background-size: 100vw;
+    }
+
+    to {
+        background-size: 110vw;
+    }
+}
+
+.Logo-container {
+    letter-spacing: 4px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: normal;
+    
+}
+
+.Logo-text {
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    margin: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(25, end) forwards;
+    animation-delay: 1s;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.App-footer {
+    background-image: url("./img/Header.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-shadow: 0px 120px 50px -50px white inset;
+    -webkit-animation: 15s linear 0s infinite alternate shift2;
+    animation: 15s linear 0s infinite alternate shift;
+}
+
+@-webkit-keyframes shift2 {
+    from {
+        background-size: 100vw;
+    }
+
+    to {
+        background-size: 120vw;
+    }
+}
+
+@keyframes shift2 {
+    from {
+        background-size: 100vw;
+    }
+
+    to {
+        background-size: 110vw;
+    }
+}

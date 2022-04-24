@@ -1,0 +1,9 @@
+.Carousel-container {
+    display:block;
+    padding-top: 30px;
+    padding-left: 5vw;
+    padding-right:5vw;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: .05;
+}
